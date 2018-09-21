@@ -143,3 +143,105 @@ li img {
     margin-left: 17.5%;
 }
 
+/*Section: New layouts week 3*/
+/*split the screen*/
+#channels{
+    position: absolute;
+    width: 40%;  
+    top: 0px;
+    bottom: 0px;
+}
+/*split the screen*/
+#chat{
+    position: absolute;
+    width: 60%;
+    left: 40%;
+    top: 0px;
+    bottom: 0px;
+}
+/*work on the app bars*/
+h1{
+    background-color: #3F51B5;
+    color: white;
+    height: 40px;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+   
+   
+}
+/*split the screen*/
+h1 img{
+    position: absolute;
+    top: 15px;
+    left: 0px;
+
+}
+/*canalize your channnels*/
+#scroll-list{
+    overflow: auto;
+    height: 600px;
+}
+/*canalize your channels*/
+.channel-meta{
+  padding-left: 480px;
+  margin-top: -50px;
+ 
+}
+/*pick up the tab bar*/
+#tab-bar{
+    display: flex;
+    margin-top: -179px;
+    justify-content: space-around;
+    padding-top: 85px;
+    
+}
+/*shoot the messenger*/
+.fmin{
+    position: relative;
+    left:595px;
+    top:8px;
+
+}
+/*shoot the messenger*/
+h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+/*add some smileys*/
+#chat-bar{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+    padding: 10px;
+}
+/*add some smileys*/
+#emojis-button{
+    position: relative;
+    bottom: 2px;
+    left: -380px;
+}
+/*add some smileys*/ /*set the style*/
+#emojis{
+    background-color: white;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    font-size: 28px;
+    text-align: left;
+    overflow: auto;
+    position: relative;
+    bottom: 270px;
+    left: 15px;
+}
+/*set the style*/
+#all{
+    overflow: auto;
+    height: 1000px;
+}
